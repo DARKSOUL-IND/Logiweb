@@ -1,0 +1,186 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.top-nav .icons {
+    display: flex;
+}
+
+.top-nav .icons a {
+    margin-right: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.hero {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hero-link {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #f60;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.services {
+    padding: 20px;
+    text-align: center;
+    background-color: #111;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.service-card {
+    width: 30%;
+    height: 300px; /* Set a fixed height for the images */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: transform 0.3s;
+    text-decoration: none; /* Ensure no underline on links */
+    color: #fff; /* Ensure text color is white */
+    font-size: 1.5em; /* Increase font size */
+}
+
+.service-card p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.fun-facts {
+    padding: 20px;
+    text-align: center;
+    background-color: #000;
+}
+
+.fun-facts .numbers {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.fun-facts .number {
+    width: 30%;
+}
+
+.fun-facts .number h3,
+.fun-facts .number p {
+    color: #f60;
+    font-size: 2em; /* Increase font size */
+}
+
+.video-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.testimonials {
+    padding: 20px;
+    background-color: #111;
+    text-align: center;
+}
+
+.testimonial-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.testimonial-box {
+    width: 18%;
+    padding: 20px;
+    border: 2px solid #f60;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.contact {
+    padding: 20px;
+    text-align: center;
+    background-color: #111;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-box {
+    background-color: #f60;
+    color: #000;
+    padding: 20px;
+    width: 50%;
+    margin-bottom: 10px; /* Add margin between boxes */
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
